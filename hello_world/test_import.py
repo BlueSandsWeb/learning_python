@@ -1,3 +1,3 @@
 import test_export as sm
-print(sm.square(2))
-# print()
+print(sm.square(936))
+print(sm.even_or_odd(sm.square(936)))

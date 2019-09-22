@@ -18,15 +18,13 @@ def square(x):
 
 def even_or_odd(n):
     if n % 2 == 0:
-        print(True)
+        # print(True)
         return True
     else:
-        print(False)
+        # print(False)
         return False
 
 
-# even_or_odd(3)
-# even_or_odd(4)
 def main():
     x = 25
     num = 5
@@ -35,8 +33,8 @@ def main():
     new_num = even_or_odd(num)
 
 
-# comes back as __main__ when using specifically this file else it comes back as something else
-print(__name__)
+# comes back as __main__ when calling specifically this file else it comes back as the name of the file ("test_export")
+# print(__name__)
 
 if __name__ == '__main__':  # This is good for testing
-    say_something()
+    main()
